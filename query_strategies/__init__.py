@@ -7,3 +7,4 @@ from .badge_sampling import BadgeSampling
 from .cdal_sampling import CDALSampling
 from .gcn_sampling import GCNSampling
 from .alpha_mix_sampling import AlphaMixSampling
+from .disagreement_aug_preds import DAPSampling
