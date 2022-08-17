@@ -41,7 +41,8 @@ ALL_STRATEGIES = [
     'AdversarialDeepFool',
     'BadgeSampling',
     'CDALSampling',
-    'GCNSampling'
+    'GCNSampling',
+    'DAPSampling'
 ]
 
 
@@ -753,7 +754,8 @@ if __name__ == "__main__":
                                  'BALDDropout', 'CoreSet',
                                  'AdversarialDeepFool',
                                  'BadgeSampling', 'CDALSampling', 'GCNSampling', 'AlphaMixSampling',
-                                 'All'])
+                                 'All',
+                                 'DAPSampling'])
 
     parser.add_argument('--n_drop', type=int, default=5)
     parser.add_argument('--eps', type=float, default=0.05)
